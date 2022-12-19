@@ -10,3 +10,18 @@ $ mv dotfiles ~/.dotfiles
 $ cd ~/.dotfiles
 $ stow .
 ```
+
+## Shell
+I use [Spaceship Prompt](https://spaceship-prompt.sh/) for zsh as my shell. To
+install, ensure you first have zsh on your machine. For macOS, I tend to use
+homebrew:
+
+```sh
+brew install spaceship
+```
+
+For Arch Linux, I just use the AUR package:
+
+```sh
+yay -S spaceship-prompt-git
+```
